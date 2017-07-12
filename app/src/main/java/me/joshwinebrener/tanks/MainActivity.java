@@ -266,10 +266,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
             //when the bullet reaches the tap...
-            if (bullet.getX() < bulletImpactX + 5
+            if ((bullet.getX() < bulletImpactX + 5
                     && bullet.getX() > bulletImpactX - 5
                     && bullet.getY() < bulletImpactY + 5
-                    && bullet.getY() > bulletImpactY - 5) {
+                    && bullet.getY() > bulletImpactY - 5)
+                    //or leaves the frame...
+                    ||(bullet.getX() < 0
+                    || bullet.getX() > frame.getWidth()
+                    || bullet.getY() < 0
+                    || bullet.getY() > frame.getHeight()))
+            {
                 bullet.setVisibility(View.INVISIBLE);
                 flames[flameIndex].setVisibility(View.VISIBLE);
                 shoot = true;
