@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frame;
     ImageView dirt;
     ImageView bullet;
-    ImageView[] flames = new ImageView[5];
+    ImageView[] flames = new ImageView[50];
     Tank tank;
 
     //for timer
@@ -261,8 +261,8 @@ public class MainActivity extends AppCompatActivity {
             //if the bullet is still in the frame...
             if (bullet.getX() > 0 && bullet.getX() < frame.getWidth()
                     && bullet.getY() > 0 && bullet.getY() < frame.getHeight()) {
-                bullet.setX(bullet.getX() - 5 * (float) Math.cos(bulletDirectionRad));
-                bullet.setY(bullet.getY() - 5 * (float) Math.sin(bulletDirectionRad));
+                bullet.setX(bullet.getX() - 10 * (float) Math.cos(bulletDirectionRad));
+                bullet.setY(bullet.getY() - 10 * (float) Math.sin(bulletDirectionRad));
             }
 
             //when the bullet reaches the tap...
