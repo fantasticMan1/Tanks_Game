@@ -6,22 +6,22 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1499895314037"
+    timestamp="1499896281737"
     token="8786510408677071151"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="289" />
+        duration="332" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="25" />
+        duration="82" />
     <task
         name="verifier"
-        duration="2" />
+        duration="13" />
 
     <artifact
         location="/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -108,7 +108,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499895236163"
+        timestamp="1499895841369"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/joshwinebrener/my_code/java/Tanks/app/build/outputs/apk/app-debug.apk"
@@ -116,7 +116,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1499895314037"
+        timestamp="1499896281737"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/split-apk/debug/slices/slice_7.apk"

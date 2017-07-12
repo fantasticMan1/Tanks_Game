@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frame;
     ImageView dirt;
     ImageView bullet;
-    ImageView[] flames = new ImageView[5];
+    ImageView[] flames = new ImageView[50];
     Tank tank;
 
     //for timer
@@ -164,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
         tank.setX(tankX);
         tank.setY(tankY);
         tank.setRotation(tankRotation);
+        tank.tankIcon.bringToFront();
 
         tank.updateBulletPos();
     }
@@ -261,15 +262,21 @@ public class MainActivity extends AppCompatActivity {
             //if the bullet is still in the frame...
             if (bullet.getX() > 0 && bullet.getX() < frame.getWidth()
                     && bullet.getY() > 0 && bullet.getY() < frame.getHeight()) {
-                bullet.setX(bullet.getX() - 5 * (float) Math.cos(bulletDirectionRad));
-                bullet.setY(bullet.getY() - 5 * (float) Math.sin(bulletDirectionRad));
+                bullet.setX(bullet.getX() - 10 * (float) Math.cos(bulletDirectionRad));
+                bullet.setY(bullet.getY() - 10 * (float) Math.sin(bulletDirectionRad));
             }
 
             //when the bullet reaches the tap...
-            if (bullet.getX() < bulletImpactX + 5
+            if ((bullet.getX() < bulletImpactX + 5
                     && bullet.getX() > bulletImpactX - 5
                     && bullet.getY() < bulletImpactY + 5
-                    && bullet.getY() > bulletImpactY - 5) {
+                    && bullet.getY() > bulletImpactY - 5)
+                    //or leaves the frame...
+                    ||(bullet.getX() < 0
+                    || bullet.getX() > frame.getWidth()
+                    || bullet.getY() < 0
+                    || bullet.getY() > frame.getHeight()))
+            {
                 bullet.setVisibility(View.INVISIBLE);
                 flames[flameIndex].setVisibility(View.VISIBLE);
                 shoot = true;
