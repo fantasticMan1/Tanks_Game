@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ba64bba17d4e089a6e4529c8e3cc830f055e9f8">
+        <dex dex="/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_25434f3b07da76b9e85ba8eb259edd95c593e0fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92919eac3f9773046de64b570a3d59729a2750ae/classes.dex" />
+    </item>
+
+</items>

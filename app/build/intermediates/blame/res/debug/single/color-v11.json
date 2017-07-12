@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

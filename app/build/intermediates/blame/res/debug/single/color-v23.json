@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]

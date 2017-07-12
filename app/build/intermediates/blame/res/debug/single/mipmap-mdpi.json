@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/joshwinebrener/my_code/java/Tanks/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/joshwinebrener/my_code/java/Tanks/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

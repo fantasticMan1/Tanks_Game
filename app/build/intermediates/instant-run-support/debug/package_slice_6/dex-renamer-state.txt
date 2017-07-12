@@ -1,0 +1,4 @@
+#Sat Jul 08 12:39:57 EDT 2017
+base.0=/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
+renamed.0=classes.dex
+file.0=/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex

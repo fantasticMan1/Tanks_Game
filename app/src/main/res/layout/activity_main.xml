@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.joshwinebrener.tanks.MainActivity">
+
+    <!--The layout dimension lines keep auto-switching-->
+    <!--from match_parent.  Set them back if they do.-->
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/dirt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dirt" />
+
+        <ImageView
+            android:id="@+id/tank"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:transformPivotX="30dp"
+            android:transformPivotY="60dp"
+            android:src="@drawable/tank_icon" />
+
+        <ImageView
+            android:id="@+id/bullet"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bullet_icon"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/flame"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:src="@drawable/flame_icon"/>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

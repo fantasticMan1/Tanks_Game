@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
