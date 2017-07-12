@@ -164,6 +164,7 @@ public class MainActivity extends AppCompatActivity {
         tank.setX(tankX);
         tank.setY(tankY);
         tank.setRotation(tankRotation);
+        tank.tankIcon.bringToFront();
 
         tank.updateBulletPos();
     }
