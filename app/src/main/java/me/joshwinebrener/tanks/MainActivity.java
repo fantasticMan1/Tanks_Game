@@ -164,6 +164,8 @@ public class MainActivity extends AppCompatActivity {
         tank.setX(tankX);
         tank.setY(tankY);
         tank.setRotation(tankRotation);
+
+        tank.updateBulletPos();
     }
 
     public double degToTap(double tapX, double tapY, double tankX, double tankY) {
@@ -221,7 +223,6 @@ public class MainActivity extends AppCompatActivity {
         public float getY() {
             return tankIcon.getY() + tankIcon.getHeight()/2;
         }
-
         public void shoot() {
             if (shoot) {
                 //The bullet obviously has to be visible when it is shot
@@ -247,40 +248,33 @@ public class MainActivity extends AppCompatActivity {
                 bullet.setX(tank.getX());
                 bullet.setY(tank.getY());
                 bullet.setRotation(bulletDirectionDeg - 90);
-
-                //update the bullet position every 20 millisecs
-                timer.schedule(new TimerTask() {
-                    @Override
-                    public void run() {
-                        handler.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                //if the bullet is still in the frame...
-                                if (bullet.getX() > 0 && bullet.getX() < frame.getWidth()
-                                        && bullet.getY() > 0 && bullet.getY() < frame.getHeight()) {
-                                    bullet.setX(bullet.getX() - 5 * (float) Math.cos(bulletDirectionRad));
-                                    bullet.setY(bullet.getY() - 5 * (float) Math.sin(bulletDirectionRad));
-                                }
-
-                                //when the bullet reaches the tap...
-                                if (bullet.getX() < bulletImpactX + 5
-                                        && bullet.getX() > bulletImpactX - 5
-                                        && bullet.getY() < bulletImpactY + 5
-                                        && bullet.getY() > bulletImpactY - 5) {
-                                    bullet.setVisibility(View.INVISIBLE);
-                                    flames[flameIndex].setVisibility(View.VISIBLE);
-                                    shoot = true;
-                                }
-                            }
-                        });
-                    }
-                }, 0, 20);
             } else {
                 bullet.setVisibility(View.INVISIBLE);
                     shoot = (bullet.getX() < 0
                             && bullet.getX() > frame.getWidth()
                             && bullet.getY() < 0
                             && bullet.getY() > frame.getHeight());
+            }
+        }
+
+        public void updateBulletPos() {
+            //if the bullet is still in the frame...
+            if (bullet.getX() > 0 && bullet.getX() < frame.getWidth()
+                    && bullet.getY() > 0 && bullet.getY() < frame.getHeight()) {
+                bullet.setX(bullet.getX() - 5 * (float) Math.cos(bulletDirectionRad));
+                bullet.setY(bullet.getY() - 5 * (float) Math.sin(bulletDirectionRad));
+            }
+
+            //when the bullet reaches the tap...
+            if (bullet.getX() < bulletImpactX + 5
+                    && bullet.getX() > bulletImpactX - 5
+                    && bullet.getY() < bulletImpactY + 5
+                    && bullet.getY() > bulletImpactY - 5) {
+                bullet.setVisibility(View.INVISIBLE);
+                flames[flameIndex].setVisibility(View.VISIBLE);
+                shoot = true;
+            } else if (!shoot){
+                bullet.setVisibility(View.VISIBLE);
             }
         }
     }
