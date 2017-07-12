@@ -64,12 +64,12 @@
         "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/joshwinebrener/.android/build-cache/54cd954bc41092005e19d6a97fbca660b8364ca0/output/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/joshwinebrener/my_code/java/Tanks/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png",
